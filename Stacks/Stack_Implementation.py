@@ -8,6 +8,9 @@ class Stack:
     def getSize(self):
         return self.current_size
 
+    def isEmpty(self):
+        return True if self.current_size == 0 else False
+
     def push(self, element):
         if self.getSize() > self.size:
             return OverflowError
@@ -28,7 +31,7 @@ class Stack:
         if self.getSize() == 0:
             return "Empty Stack"
         else:
-            return self.stack[self.current_size-1]
+            return self.stack[-1]
 
 
 my_stack = Stack(10)
