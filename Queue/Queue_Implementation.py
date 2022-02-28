@@ -26,7 +26,7 @@ class Queue:
         if self.isEmpty():
             raise TypeError("Empty Queue")
         else:
-            return self.queue[self.length-1]
+            return self.queue[-1]
 
     def size(self):
         return self.length
