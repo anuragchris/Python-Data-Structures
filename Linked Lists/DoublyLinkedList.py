@@ -116,7 +116,7 @@ class DoublyLinkedList:
         else:
             temp = self.head
             while temp is not None:
-                print(temp.data, "-->", end=" ")
+                print(temp.data, "<-->", end=" ")
                 temp = temp.next
 
 
