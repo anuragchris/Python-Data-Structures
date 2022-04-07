@@ -2,7 +2,6 @@
 
 from queue import PriorityQueue
 from typing import Optional
-from xml.dom import minidom
 
 
 class ListNode:
