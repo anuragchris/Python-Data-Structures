@@ -1,4 +1,4 @@
-# Link For Problem: https: // leetcode.com/problems/two-sum-iv-input-is-a-bst/
+# Link For Problem: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 
 from typing import Optional
 
