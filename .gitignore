@@ -175,3 +175,5 @@ cython_debug/
 **/.history
 
 # End of https://www.gitignore.io/api/visualstudiocode
+.vscode/launch.json
+.vscode/settings.json
